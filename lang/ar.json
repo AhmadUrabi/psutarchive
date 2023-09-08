@@ -65,9 +65,16 @@
     }
   },
   "submit": {
-    "title": "أرسل مواد",
+    "title": "أرسل أوراق",
     "form": {
       "required": "حقل مطلوب",
+      "select": "حدد اختيارًا",
+      "choose-type": "اختر نوع الورقة",
+      "choose-exam-type": "اختر نوع الامتحان",
+      "choose-note-type": "اختر نوع الملاحظات",
+      "choose-semester": "اختر الفصل الدراسي",
+      "year": "السنة",
+      "year-semester-label": "السنة والفصل الدراسي",
       "choose-course": "اختر المادّة",
       "submit": "أرسل"
     }

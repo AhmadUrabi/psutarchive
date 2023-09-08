@@ -68,6 +68,13 @@
     "title": "Submit Papers",
     "form": {
       "required": "Requied field",
+      "select": "Select an option", 
+      "choose-type": "Choose paper type",
+      "choose-exam-type": "Choose exam type",
+      "choose-note-type": "Choose note type",
+      "choose-semester": "Choose a semester",
+      "year": "year",
+      "year-semester-label": "Year and semester",
       "choose-course": "Choose course",
       "submit": "Submit"
     }
