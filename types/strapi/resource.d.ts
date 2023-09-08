@@ -1,3 +1,4 @@
+import { ResourceTypes } from "./enums";
 declare global {
   interface ResourceAttributes {
     type: ResourceTypes
@@ -8,8 +9,3 @@ declare global {
   }
 }
 export {};
-
-export enum ResourceTypes {
-  Exam = "exam",
-  Note = "note"
-}

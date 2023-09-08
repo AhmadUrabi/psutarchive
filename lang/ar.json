@@ -65,7 +65,12 @@
     }
   },
   "submit": {
-    "title": "أرسل مواد"
+    "title": "أرسل مواد",
+    "form": {
+      "required": "حقل مطلوب",
+      "choose-course": "اختر المادّة",
+      "submit": "أرسل"
+    }
   },
   "about": {
     "title": "عنا"

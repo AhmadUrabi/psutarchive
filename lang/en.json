@@ -65,7 +65,12 @@
     }
   },
   "submit": {
-    "title": "Submit Papers"
+    "title": "Submit Papers",
+    "form": {
+      "required": "Requied field",
+      "choose-course": "Choose course",
+      "submit": "Submit"
+    }
   },
   "about": {
     "title": "About Us"
