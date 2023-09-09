@@ -23,6 +23,19 @@
             required
           />
         </Transition>
+        <Transition name="fade">
+          <label
+            v-if="userInputs.resType === 'Exam'"
+            class="label gap-2 items-center cursor-pointer sm:py-12"
+          >
+            <input
+              v-model="userInputs.solved"
+              type="checkbox"
+              class="checkbox checkbox-secondary rtl:-scale-x-100"
+            >
+            <span class="label-text">{{ $t('submit.form.exam-solved') }}</span>
+          </label>
+        </Transition>
       </div>
       <!-- year and semester -->
       <label class="flex flex-col gap-2">
@@ -72,6 +85,7 @@
     resSpecificType: null as keyof typeof ExamTypes | keyof typeof NoteTypes | null,
     semester: null as keyof typeof Semesters | null,
     year: null as number | null,
+    solved: null as boolean | null
   })
 
   // list of resource types
@@ -103,6 +117,7 @@
     console.info('submitted')
     console.info(userInputs.resType, userInputs.resSpecificType)
     console.log(userInputs.year, userInputs.semester)
+    console.log(userInputs.solved)
   }
 </script>
 <style lang="postcss" scoped></style>
