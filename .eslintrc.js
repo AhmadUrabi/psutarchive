@@ -1,12 +1,16 @@
 module.exports = {
   root: true,
-  extends: ["@nuxt/eslint-config"],
+  plugins: ["prettier"],
+  extends: ["@nuxt/eslint-config", "plugin:prettier/recommended"],
+  rules: {
+    "prettier/prettier": "error",
+  },
   overrides: [
     {
       files: ["*.vue"],
       rules: {
-        "vue/multi-word-component-names": "off"
-      }
-    }
-  ]
+        "vue/multi-word-component-names": "off",
+      },
+    },
+  ],
 };
