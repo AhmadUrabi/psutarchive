@@ -120,6 +120,7 @@
       "exam": "No exams were found",
       "note": "No notes were found"
     },
-    "error": "We're sorry, an error has occured"
+    "error": "We're sorry, an error has occured",
+    "authenticating": "Authenticating"
   }
 }
