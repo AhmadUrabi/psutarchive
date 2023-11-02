@@ -11,11 +11,11 @@ export const isJwtExpired = (token: string) => {
 }
 
 export const invalidateJwt = () => {
-    const STORAGE_KEY = "JWT";
+    const STORAGE_KEY = "jwt";
     localStorage.removeItem(STORAGE_KEY);
 }
 
 export const storeJwt = (token: string) => {
-    const STORAGE_KEY = "JWT";
+    const STORAGE_KEY = "jwt";
     localStorage.setItem(STORAGE_KEY, token);
 }
