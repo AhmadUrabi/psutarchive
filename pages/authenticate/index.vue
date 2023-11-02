@@ -5,7 +5,7 @@
     </div>
 </template>
 <script setup lang="ts">
-// The google authentication buttom on the upload page will redirect to this page after a successful login.
+// The google authentication button on the upload page will redirect to this page after a successful login.
 // It will include a code query that needs to be traded for a jwt from the api.
 const route = useRoute()
 const router = useRouter()
